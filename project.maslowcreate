@@ -32,6 +32,10 @@
             "uniqueID": 437198,
             "ioValues": [
                 {
+                    "name": "geometry",
+                    "ioValue": "atoms/578504/673133Rectangle"
+                },
+                {
                     "name": "height",
                     "ioValue": 1
                 }
@@ -43,7 +47,12 @@
             "x": 0.42898975109809667,
             "y": 0.26436781609195403,
             "uniqueID": 928156,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/578504/437198Extrude"
+                }
+            ],
             "selectedColorIndex": "7"
         },
         {
@@ -53,6 +62,10 @@
             "y": 0.5632183908045977,
             "uniqueID": 958631,
             "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/578504/425093Extrude"
+                },
                 {
                     "name": "xDist",
                     "ioValue": 0
@@ -74,6 +87,10 @@
             "y": 0.6398467432950191,
             "uniqueID": 425093,
             "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/578504/492141Rectangle"
+                },
                 {
                     "name": "height",
                     "ioValue": 15.5
@@ -120,7 +137,12 @@
             "x": 0.4333821376281113,
             "y": 0.578544061302682,
             "uniqueID": 712940,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/578504/958631Translate"
+                }
+            ],
             "selectedColorIndex": "11"
         },
         {
@@ -128,7 +150,13 @@
             "name": "Output",
             "x": 0.9853587115666179,
             "y": 0.5,
-            "ioValues": []
+            "uniqueID": 387826,
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "atoms/578504/862797Assembly"
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -178,7 +206,8 @@
             "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
-            "ap1ID": 862797
+            "ap1ID": 862797,
+            "ap2ID": 387826
         },
         {
             "ap1Name": "geometry",
